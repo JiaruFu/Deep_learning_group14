@@ -11,8 +11,8 @@ nlp = spacy.load("en_core_web_sm")
 
 
 Before run the code, you should download the 'GoogleNews-vectors-negative300.bin' from https://drive.google.com/uc?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM&export=download to the same path  with that of code. Maybe you should add the following code and run it before run the Jupyter Notebook code: 
-\begin{align}
-import nltk \\
-nltk.download('punkt') \\
+
+import nltk 
+nltk.download('punkt') 
 nltk.download('stopwords')
-\end{align}
+
