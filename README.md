@@ -16,3 +16,9 @@ import nltk
 nltk.download('punkt') 
 nltk.download('stopwords')
 
+pre_trained model download:
+https://github.com/eyaler/word2vec-slim/blob/master/GoogleNews-vectors-negative300-SLIM.bin.gz
+if the above not working, try:
+https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz
+and then unzip this file; put it in the same directory as the cnn file. 
+May need to change the path inside the file based on where you put it.
