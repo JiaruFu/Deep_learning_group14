@@ -10,13 +10,13 @@ import spacy
 nlp = spacy.load("en_core_web_sm")
 
 
-Before run the code, you should download the 'GoogleNews-vectors-negative300.bin' from https://drive.google.com/uc?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM&export=download to the same path  with that of code. Maybe you should add the following code and run it before run the Jupyter Notebook code: 
+Before run the code, you should download the 'GoogleNews-vectors-negative300.bin' from https://drive.google.com/uc?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM&export=download to the same path  with that of code (if it does not work, see the way below (!)). Maybe you should add the following code and run it before run the Jupyter Notebook code: 
 
 import nltk 
 nltk.download('punkt') 
 nltk.download('stopwords')
 
-pre_trained model download:
+pre_trained model download: (!)
 https://github.com/eyaler/word2vec-slim/blob/master/GoogleNews-vectors-negative300-SLIM.bin.gz
 if the above not working, try:
 https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz
